@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Manu = () => {
     return (
@@ -14,8 +15,8 @@ const Manu = () => {
                     </a>
 
                 </div>
-                <div>
-                    <ul className='text-white flex gap-x-10'>
+                <div className='flex space-x-10 items-center'>
+                    <ul className='text-white flex gap-x-10 '>
                         <li className='text-lg font-semibold cursor-pointer hover:text-purple-500 relative
            after:absolute after:content-[""]
            after:top-7 after:left-0
@@ -40,13 +41,11 @@ const Manu = () => {
            after:w-0 after:h-1 after:bg-purple-400 after:rounded-lg
            after:transition-all after:duration-500
            hover:after:w-full'>Project</li>
-                        <li className='text-lg font-semibold cursor-pointer hover:text-purple-500 relative
-           after:absolute after:content-[""]
-           after:top-7 after:left-0
-           after:w-0 after:h-1 after:bg-purple-400 after:rounded-lg
-           after:transition-all after:duration-500
-           hover:after:w-full'>Contact</li>
+                        
                     </ul>
+                    <div className='transition-transform duration-300 hover:scale-110'>
+                        <Link to="/contact" className='text-lg font-semibold text-white bg-purple-500 px-6 py-4 rounded-3xl'>Contact Me</Link>
+                    </div>
                 </div>
             </div>
         </header>
