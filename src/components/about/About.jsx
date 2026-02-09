@@ -13,7 +13,9 @@ const About = () => {
               <div className='pb-20'>
                 <img className='w-full' src={about} alt="" />
               </div>
-              <div></div>
+              <div>
+                <p className='pt-5 pb-20 text-2xl pl-10 text-white'>I am a passionate Full Stack Developer with hands-on experience in building complete web applications from front-end to back-end. I specialize in creating responsive and user-friendly interfaces using React.js, and developing secure, scalable server-side applications using Node.js and Express.js. </p>
+              </div>
             </div>
         </div>
     </section>

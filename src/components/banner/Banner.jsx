@@ -30,7 +30,7 @@ const Banner = () => {
       repeat={Infinity}
       
     />
-            <p className='pt-5 pb-20 w-150'>I am a passionate Full Stack Developer with hands-on experience in building complete web applications from front-end to back-end. I specialize in creating responsive and user-friendly interfaces using React.js, and developing secure, scalable server-side applications using Node.js and Express.js. </p>
+            <p className='pt-5 pb-20 w-150'>Full Stack Developer with experience in developing dynamic web applications from concept to deployment. Strong in both frontend UI design and backend logic, focused on performance and clean code. </p>
             <div className='' >
               <button className='text-2xl px-13 py-3 rounded-full  bg-black text-white flex items-center hover:text-purple-500 ' >CV download</button>
             </div>
