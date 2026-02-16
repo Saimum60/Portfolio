@@ -1,9 +1,9 @@
 import React from 'react'
-import about from '../../assets/blog.jpg'
+import about from '../../assets/project6.avif'
 
 const About = () => {
   return (
-    <section className='bg-[#1a1a1a]'>
+    <section className='bg-[#2b2b2b]'>
         <div className='container mx-auto px-4 py-10'>
             <div className='text-white   '>
                 <h2 className='text-5xl text-center font-bold pb-20 '>About <span className='text-purple-500'>Me</span></h2>

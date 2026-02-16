@@ -5,11 +5,11 @@ import Pro from '../../../src/assets/ss1.png'
 const Banner = () => {
   return (
     <section>
-      <div className='min-h-screen flex items-center pt-10 pb-16 bg-linear-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]'
+      <div className='min-h-screen flex items-center  pb-16 bg-linear-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a]'
       >
         <div className='container mx-auto px-6 grid grid-cols-2  items-center justify-between'>
           {/* left side */}
-          <div className='text-white pt-10'>
+          <div className='text-white pt-50'>
             <h1 className='text-5xl font-bold mb-4'>
               Hi, I'm <span className='text-purple-500'>Abu Sayed Saimum</span>
             </h1>
@@ -39,8 +39,8 @@ const Banner = () => {
 
         <div>
           <div className='pl-50  w-100 h-100 '>
-            <div className=' rounded-full bg-linear-to-r from-purple-500 to-pink-500 w-100 h-100'>
-              <img className=' rounded-full w-100 h-100 box' src={Pro} alt="" />
+            <div className=' rounded-full bg-linear-to-r from-purple-500 to-pink-500 w-102 h-102'>
+              <img className=' rounded-full w-100 h-100 pl-2 pt-2' src={Pro} alt="" />
             </div>
           </div>
         </div>

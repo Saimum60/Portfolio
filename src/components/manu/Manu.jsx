@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Manu = () => {
     return (
-        <header className='fixed w-full z-50 bg-[#1a1a1a] backdrop:blur-sm px-4 py-10'>
+        <header className='fixed w-full z-50 bg-linear-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a] backdrop:blur-sm px-4 py-8'>
             <div className='container mx-auto flex justify-between items-center '>
                 <div>
                     <a href="#" className='text-4xl font-bold text-white'>Port <span className='text-purple-500'>folio </span>
