@@ -1,17 +1,19 @@
 import React from 'react'
+import Container from '../commoncomponent/Container'
+import {motion} from 'framer-motion'
 
 const Contact = () => {
   return (
-   <section className='px-4 py-10'>
-    <div className='container mx-auto flex justify-between items-center'>
-        <div>
-            <div>
-                <input type="text" name='text' placeholder='Name' className='focus:outline-none' />
-            </div>
+      <motion.div
+       initial={{opacity:0,y:50}}
+       whileInView={{opacity:1, y:0}}
+       transition={{duration:1, ease:'easeOut'}}
+       viewport={{once:false, amount:0.2}}
+       id='contact'
+       className='py-20 bg-[#2b2b2b]'>
 
-        </div>
-    </div>
-   </section>
+       
+   </motion.div>
   )
 }
 

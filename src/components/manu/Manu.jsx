@@ -6,7 +6,7 @@ const Manu = () => {
         <header className='fixed w-full z-50 bg-linear-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a] backdrop:blur-sm px-4 py-8'>
             <div className='container mx-auto flex justify-between items-center '>
                 <div>
-                    <a href="#" className='text-4xl font-bold text-white'>Port <span className='text-purple-500'>folio </span>
+                    <a href="#" className='text-6xl font-bold text-purple-500 '>$
                         <div className='flex gap-x-2'>
                             <div className='w-4 h-4 bg-purple-500 rounded-full'></div>
                             <div className='w-4 h-4 bg-purple-500 rounded-full'></div>

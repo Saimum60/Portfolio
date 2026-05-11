@@ -1,6 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import Pro from '../../../src/assets/ss1.png'
+import Pro from '../../../src/assets/sai.png'
 
 const Banner = () => {
   return (
@@ -32,12 +32,12 @@ const Banner = () => {
     />
             <p className='pt-5 pb-20 w-150'>Full Stack Developer with experience in developing dynamic web applications from concept to deployment. Strong in both frontend UI design and backend logic, focused on performance and clean code. </p>
             <div className='' >
-              <button className='text-2xl px-13 py-3 rounded-full  bg-black text-white flex items-center hover:text-purple-500 ' >CV download</button>
+              <button className='text-2xl px-13 py-3 rounded-full cursor-pointer  bg-black text-white flex items-center hover:text-purple-500 ' >CV download</button>
             </div>
           </div>
         {/* right side */}
 
-        <div>
+        <div className='pt-50'>
           <div className='pl-50  w-100 h-100 '>
             <div className=' rounded-full bg-linear-to-r from-purple-500 to-pink-500 w-102 h-102'>
               <img className=' rounded-full w-100 h-100 pl-2 pt-2' src={Pro} alt="" />

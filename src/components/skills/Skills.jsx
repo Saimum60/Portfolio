@@ -4,7 +4,8 @@ import { FaBootstrap, FaFigma, FaHtml5, FaReact } from 'react-icons/fa'
 import { SiCss3, SiNextdotjs } from 'react-icons/si'
 import { RiTailwindCssFill } from 'react-icons/ri'
 import { IoLogoJavascript } from 'react-icons/io'
-import { div, span } from 'framer-motion/client'
+
+import {motion} from 'framer-motion'
 
 const Skills = () => {
 
@@ -59,16 +60,22 @@ const Skills = () => {
         },
     ]
   return (
-    <section className='px-5 py-10 bg-[#2b2b2b]'>
+    <motion.div
+       initial={{opacity:0,y:50}}
+       whileInView={{opacity:1, y:0}}
+       transition={{duration:1, ease:'easeOut'}}
+       viewport={{once:false, amount:0.2}}
+       id='contact'
+       className='py-20 bg-[#2b2b2b]'>
         <Container>
 
             <div>
-                <h3 className='text-white text-4xl font-bold text-center'>Skills</h3>
+                <h3 className='text-white text-4xl font-bold text-center'>My <span className='text-purple-500'>Skills</span></h3>
                 <div></div>
 
             </div>
             <div className='flex justify-center pt-5 pb-20'>
-                <p className='text-white w-120 text-lg text-center'>I have strong skills in front-end and full-stack web development, including HTML, CSS, JavaScript, and React.js.</p>
+                <p className='text-white w-120 text-lg text-center'>Technologiea I work with to bring ideas to life</p>
             </div>
 
            <div className="grid md:grid-cols-4 gap-6">
@@ -92,8 +99,10 @@ const Skills = () => {
             
            
         </Container>
-        
-    </section>
+
+       
+   </motion.div>
+    
   )
 }
 
